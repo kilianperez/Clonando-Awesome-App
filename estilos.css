@@ -1,0 +1,670 @@
+/* Estilo basico */
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	scroll-behavior: smooth;
+}
+p,
+ul,
+li,
+a,
+span,
+footer {
+	font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+#logoHome,
+.precioProduc,
+.precioProduc span {
+	font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
+}
+/* Color y medidas */
+h2 {
+	font-size: 2.5em;
+}
+h4 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+section p,
+section li {
+	color: gray;
+}
+a {
+	color: gray;
+	text-decoration: none;
+}
+hr {
+	border-top: 1px solid #d3d3d34f;
+}
+/* Navegador */
+nav {
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	padding: 30px 10%;
+	background: -webkit-linear-gradient(0deg, #fe712c, #f73861);
+}
+#navMobile {
+	display: none;
+}
+nav ul {
+	text-align: right;
+	font-weight: 600;
+}
+nav li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 15px;
+}
+nav a {
+	color: white;
+}
+#logoHome {
+	float: left;
+	width: 40%;
+	font-size: 25px;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+}
+#logoText {
+	float: left;
+	margin: 10px 11px;
+}
+#w60 {
+	float: left;
+	width: 60%;
+}
+.btn {
+	padding: 13px;
+	border: solid;
+	border-color: white;
+	border-radius: 25px;
+	border-width: 2px;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+.btn:hover a {
+	color: black;
+}
+/* Portada */
+#portada {
+	background: -webkit-linear-gradient(0deg, #fe712c, #f73861);
+	overflow: hidden;
+	padding: 70px 10% 85px;
+}
+#portadaIzq {
+	width: 50%;
+	height: 100%;
+	float: left;
+	color: white;
+}
+#portadaIzq h1 {
+	font-size: 3em;
+	margin: 10px 0;
+}
+#portadaIzq > div div {
+	padding-top: 31px;
+}
+#portadaIzq ul {
+	color: white;
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+#portadaIzq i {
+	padding-right: 7px;
+}
+#portada li {
+	padding: 0.5em 0 0.5em 0;
+}
+#portadaDer {
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+#portadaDer img {
+	float: right;
+	width: 100%;
+}
+
+/* seccion de los iconos */
+
+#icons {
+	padding: 74px 10%;
+	overflow: hidden;
+}
+
+/*
+#iconsBox{
+    overflow: hidden;
+ } */
+
+.iconsBox {
+	float: left;
+	width: 33.33%;
+}
+
+.iconsBoxFloat {
+	width: 20%;
+	margin-top: 28px;
+	margin-top: 28px;
+	float: left;
+}
+
+.iconsBoxFloat i {
+	font-size: 40px;
+	color: orangered;
+}
+
+.iconsTextFloat {
+	width: 80%;
+	/* float: left; */
+	display: inline-block;
+}
+
+/* separador */
+
+#separadorHr {
+	padding: 0px 10%;
+}
+
+/* seccion del móvil */
+
+#movil {
+	padding: 60px 10%;
+	overflow: hidden;
+}
+
+#movilIzq {
+	padding-top: 35px;
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+#movilIzq img {
+	float: left;
+	width: 100%;
+}
+
+#movilDer {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+#movilDer h1 {
+	font-size: 3em;
+	margin: 10px 0;
+}
+#movilDer > div div {
+	padding-top: 31px;
+}
+#movilDer ul {
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+#movilDer i {
+	padding-right: 11px;
+	/* font-size: 11px; */
+}
+#movil li {
+	padding: 0.5em 0 0.5em 0;
+}
+
+/* seccion del slider */
+
+#slider {
+	background: #f5fafd;
+	padding: 67px 8%;
+}
+
+#sliderText {
+	text-align: center;
+}
+
+#sliderImg {
+	width: 100%;
+	padding-top: 33px;
+	text-align: center;
+}
+
+#sliderImg img {
+	border-radius: 15px;
+	width: 100%;
+	/* height: 400px; */
+	object-fit: cover;
+	box-shadow: 0px 0px 9px 8px rgba(211, 211, 211, 0.842);
+}
+
+/* seccion de los precios y opinion */
+
+#precio {
+	/* background: rgb(255, 251, 0); */
+	padding: 30px 6%;
+}
+
+#precio div {
+	text-align: center;
+}
+#precio > div {
+	padding: 19px;
+}
+
+#precioGrid {
+	/* height: 400px; */
+	padding: 60px 10% 35px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.precioBox {
+	display: inline-block;
+	/* float: left; */
+	background-color: #f5fafd;
+	width: 22%;
+	padding: 12px 0px 44px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 9px 8px rgba(211, 211, 211, 0.842);
+	margin: 10px 1%;
+}
+
+.precioBox:hover {
+	transform: translateY(-3%);
+	box-shadow: 0px 13px 13px 7px rgba(211, 211, 211, 0.842);
+	transition-duration: 0.4s;
+}
+
+/*
+ .precioInfo{
+   
+
+}
+
+.precioText{
+
+} */
+
+.precioProduc {
+	padding: 25px;
+	background-color: white;
+	font-size: 2.3em;
+}
+
+.gradient {
+	background: -webkit-linear-gradient(0deg, #fe712c, #f73861);
+	color: white;
+}
+
+#radius {
+	color: white;
+	padding: 12.8px 31.8px;
+	border: none;
+}
+/* .precioProduc{
+    padding: 25px;
+    font-size: 2.3em;
+} */
+
+.precioProduc sup,
+.precioProduc small {
+	font-size: 20px;
+	padding: 0;
+}
+
+.precioUl {
+	font-size: 0.9rem;
+	list-style: none;
+	padding: 8px 0;
+}
+
+.precioUl li {
+	border-bottom: solid 1px #d3d3d34f;
+	margin: 0px 20px;
+	padding: 14px 0px;
+}
+
+.precioBtn {
+	padding-top: 10px;
+}
+
+.precioBtn p {
+	padding-bottom: 12px;
+	font-size: 0.9rem;
+}
+
+.precioBtn a {
+	font-weight: 600;
+	font-size: 0.7rem;
+	color: gray;
+	text-decoration: none;
+	padding: 11px 30px;
+	border: solid 1.8px;
+	border-radius: 20px;
+}
+.precioBtn a:hover {
+	color: white;
+	background-color: gray;
+	border: solid 1.8px gray;
+}
+
+/* Opiniones */
+
+#opiniones {
+	/* background: #F5FAFD; */
+	padding: 50px 8% 100px 8%;
+	text-align: center;
+}
+
+/* #opinionClient{
+    text-align: center;
+} */
+
+.opinionBox {
+	/* overflow: hidden; */
+	display: inline-block;
+	background-color: #f5fafd;
+	width: 30%;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 7px lightgrey;
+	margin: 10px 1%;
+	text-align: left;
+}
+.opinionDisplay {
+	overflow: hidden;
+}
+.opinionImg {
+	float: left;
+	width: 30%;
+}
+
+.opinionImg img {
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 50%;
+}
+.opinionText {
+	padding: 0px 20px;
+	width: 70%;
+	float: left;
+}
+
+.opinionText p {
+	margin-top: 4px;
+}
+
+/* seccion de las descargas */
+
+#descarga {
+	background: -webkit-linear-gradient(0deg, #fe712c, #f73861);
+	padding: 72px 6%;
+	text-align: center;
+}
+
+#descarga h2 {
+	color: white;
+}
+
+#descarga i {
+	color: gray;
+}
+
+.descargaBox {
+	overflow: hidden;
+	display: inline-block;
+	background-color: #f5fafd;
+	text-align: initial;
+	padding: 3px 18px 17px;
+	width: 29%;
+	border-radius: 10px;
+	margin: 10px 1%;
+	box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+}
+
+.descargaBox:hover {
+	transform: translateY(-11%);
+	transition-duration: 0.4s;
+	box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.699);
+}
+
+.descargaBox i {
+	width: 100%;
+}
+
+.descargaLogo {
+	float: left;
+	width: 30%;
+	padding: 21px 11px 8px;
+}
+
+.descargaText {
+	float: left;
+	width: 70%;
+}
+
+.descargaText h3 {
+	margin: 0;
+	font-size: 1.4rem;
+	padding-top: 25px;
+}
+.descargaText p {
+	padding-top: 7px;
+	margin: 0;
+}
+
+#appl:hover i {
+	color: lightgray;
+}
+
+#andr:hover i {
+	color: #a4c639;
+}
+
+#win:hover i {
+	color: #0078d7;
+}
+
+/* este es el footer */
+
+footer {
+	background: #252422;
+	padding: 60px 8%;
+	text-align: center;
+	color: white;
+}
+
+footer > div {
+	padding-bottom: 18px;
+}
+
+#footerSocial a {
+	font-size: 1.4rem;
+	margin: 10px;
+	color: white;
+}
+
+#firma {
+	font-size: 0.8rem;
+}
+
+#firma a {
+	color: white;
+}
+
+/* tablet */
+
+@media (max-width: 950px) {
+	* {
+		/* Mola pero es una mierda a la vez para toda la pagina porque no me la aplica desde 950px https://www.youtube.com/watch?v=d3eXakVNtuo*/
+		-webkit-transition: width 0.4s ease;
+		transition: width 0.4s ease;
+
+		/* transition-property: ;
+        transition-duration: ;
+        transition-timing-function: ; */
+	}
+
+	p,
+	ul,
+	li,
+	a {
+		font-size: 0.8rem;
+	}
+	/* ¿Las medidas relativas no se pueden aplicar en serie? lo que me gustaria es que al total de las size añadidas anteriomente se me pusieran a 0.8 respecto a su medida principal*/
+
+	/* h1, h2, h3, h4, #logoHome, .precioProduc, .precioProduc span{
+        
+        font-size: 0.8rem;
+    } */
+
+	#navDesktop {
+		display: none;
+	}
+
+	nav#navMobile {
+		text-align: right;
+		display: table;
+		width: 100%;
+
+		padding: 2rem 5% 0;
+	}
+
+	#logoHome {
+		float: left;
+		width: 20%;
+	}
+
+	#logoText {
+		float: left;
+		width: 80%;
+		margin: 11px 0 0 0;
+	}
+
+	#logoText span {
+		width: 100%;
+		font-size: 1.4rem;
+	}
+
+	#portada {
+		padding: 50px 5%;
+		width: 100%;
+	}
+	#portadaIzq {
+		padding: 0 2%;
+	}
+	#icons {
+		padding: 10px 5%;
+	}
+	#portadaIzq h1 {
+		font-size: 1.8rem;
+	}
+	#icons {
+		padding: 10px 5%;
+	}
+	.iconsBox {
+		width: 50%;
+	}
+	#movilIzq {
+		padding-top: 35px;
+	}
+	.precioBox {
+		width: 47%;
+	}
+	.opinionImg {
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+	.descargaBox {
+		text-align: center;
+	}
+	.opinionImg {
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+	.opinionImg {
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+	.opinionText {
+		padding: 0px 20px;
+		width: 100%;
+		float: none;
+	}
+	.descargaBox {
+		text-align: center;
+	}
+	.descargaLogo {
+		float: none;
+		width: 100%;
+	}
+	.descargaText {
+		float: left;
+		width: 100%;
+	}
+}
+
+/* Móvil */
+
+@media (max-width: 600px) {
+	#portadaIzq {
+		width: 100%;
+		float: none;
+	}
+	#portadaDer {
+		float: none;
+		width: 100%;
+		padding-top: 28px;
+	}
+	#portadaDer img {
+		float: none;
+	}
+	.iconsBox {
+		width: 100%;
+	}
+	#movilIzq {
+		float: none;
+		width: 100%;
+	}
+	#movilIzq img {
+		float: none;
+	}
+	div#movilDer {
+		width: 100%;
+		float: none;
+	}
+	.precioBox {
+		width: 100%;
+	}
+	.opinionBox p {
+		text-align: center;
+	}
+	.opinionBox {
+		width: 100%;
+	}
+	.opinionImg {
+		width: 112px;
+	}
+	.opinionText {
+		text-align: center;
+	}
+	.descargaBox {
+		width: 100%;
+	}
+}
